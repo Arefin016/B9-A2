@@ -1,0 +1,20 @@
+@media screen and (max-width:600px) {
+    .our-popular-tours{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .our-popular-tours-img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .our-popular-tours-text{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .our-popular-tours-text .ul-list p {
+        margin-bottom: 10px;
+    }
+    .our-popular-tours-text p{
+        margin-bottom: 0;
+    }
+}
