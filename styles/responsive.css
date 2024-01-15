@@ -1,5 +1,5 @@
 @media screen and (max-width:600px) {
-    .our-popular-tours{
+    .our-popular-tours,.why-choose-us-container{
         flex-direction: column;
         gap: 20px;
     }
@@ -16,5 +16,9 @@
     }
     .our-popular-tours-text p{
         margin-bottom: 0;
+    }
+    .why-choose-us-container .card-1,.why-choose-us-container .card-2,.why-choose-us-container-2 .card-3{
+        width: 80%;
+        margin: 0 auto;
     }
 }
