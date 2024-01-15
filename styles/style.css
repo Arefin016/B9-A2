@@ -147,3 +147,51 @@ body {
     font-weight: 400;
 }
 /* Why choose us  Section end styles */
+/* Footet=r section style starts */
+.footer-container{
+    max-width: 1440px;
+    /* border: 2px solid red; */
+    height: 500px;
+    margin: 100px auto;
+    text-align: center;
+    background: #1313180D;
+}
+.footer-top{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.footer-top img{
+    width: 40px;
+    height: 40px;
+    margin-top: 110px;
+    margin-right: 16px;
+}
+.footer-top h2{
+    margin-top: 110px;
+    margin-bottom: 15px;
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.footer-top h2 .special{
+    color: #ff5400;
+}
+.footer-container p{
+    color: #5A5A5D;
+    margin-bottom: 33px;
+}
+.footer-middle{
+    border-bottom: 2px solid #1313181A;
+    max-width: 872px;
+    margin: 50px auto;
+}
+.footer-middle img{
+    margin-bottom: 50px;
+}
+.footer-bottom h3{
+    margin-top: 50px;
+    margin-bottom: 110px;
+    color: #131318;
+    font-weight: 300;
+}
