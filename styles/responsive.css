@@ -109,4 +109,22 @@
         margin-right: 20px;
         margin-bottom: 20px;
     }
+    /* Choose your destination */
+    .row{
+        flex-direction: column;
+        /* margin-bottom: 20px; */
+        justify-content: center;
+        gap: 20px;
+        height: auto;
+    }
+    /* Header section */
+    .header-section,.nav-container, .items-container{
+        flex-direction: column;
+    }
+    .nav-container,.items-container{
+        width: 100%;
+    }
+    .banner-container{
+        width: 100%;
+    }
 }
