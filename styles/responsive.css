@@ -127,4 +127,59 @@
     .banner-container{
         width: 100%;
     }
+    .travel-card-container{
+        flex-direction: column;
+    }
+    .travel-card-container .card-1{
+        flex-direction: column;
+        height: auto;
+    }
+    .travel-card-container .card-2{
+        flex-direction: column;
+        height: auto;
+    }
+    .travle-article{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .travel-card-container .card-1 img{
+        margin: 0;
+        margin-left: 50px;
+    }
+    .travel-card-container .card-2 img{
+        margin: 0;
+        margin-left: 50px;
+    }
+    .travel-card-container .card-1 .card-desc h3{
+        margin-left: 30px;
+        width: 100%;
+    }
+    .travel-card-container .card-2 .card-desc h3{
+        margin-left: 30px;
+        width: 100%;
+    }
+    .travel-card-container .card-1 .card-desc p{
+        margin: 0;
+        margin-left: 30px;
+        width: 100%;
+    }
+    .travel-card-container .card-2 .card-desc p{
+        margin: 0;
+        margin-left: 30px;
+        width: 100%;
+    }
+    .travel-card-container .card-1 .card-desc h4{
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .travel-card-container .card-2 .card-desc h4{
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .border-readmore{
+        margin-left: 30px;
+        width: 40%;
+    }
 }
