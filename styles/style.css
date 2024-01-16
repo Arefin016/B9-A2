@@ -89,6 +89,44 @@ body {
 .banner-desc{
     color: #FFF;
 }
+
+.input{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.30);
+    padding: 13px;
+}
+.input #where{
+    width: 25%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+.input #when{
+    width: 25%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+.input #option{
+    width: 25%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+.input #find{
+    width: 25%;
+    padding: 10px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: white;
+}
 /* Banner section style end */
 /* Main Section Style */
 /* Our Popular Tours  Section starts styles */
