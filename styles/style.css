@@ -287,6 +287,84 @@ body {
     font-weight: 400;
 }
 /* Why choose us  Section end styles */
+
+/* Travel Article style start */
+.travle-article{
+    max-width: 1180px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    height: 400px;
+    background-color: #ebdede;
+    text-align: center;
+    border-radius: 10px;
+}
+.travle-article h2{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+.travel-card-container{
+    display: flex;
+    gap: 20px;
+}
+.travel-card-container .card-1{
+    width: 50%;
+    /* border: 2px solid red; */
+    min-height: 20px;
+    display: flex;
+}
+.travel-card-container .card-2{
+    width: 50%;
+    /* border: 2px solid green ; */
+    min-height: 20px;
+    display: flex;
+}
+.travel-card-container .card-1 img{
+    width: 250px;
+    height: 100%;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+.travel-card-container .card-2 img{
+    width: 250px;
+    height: 100%;
+    margin-right: 20px;
+}
+.travel-card-container .card-1 .card-desc h3{
+    font-size: 1.5rem;
+    color: black;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.travel-card-container .card-2 .card-desc h3{
+    font-size: 1.5rem;
+    color: black;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.travel-card-container .card-1 .card-desc h4{
+    text-align: left;
+}
+.travel-card-container .card-2 .card-desc h4{
+    text-align: left;
+}
+.border-readmore{
+    width: 27%;
+    border: 2px solid red;
+}
+.travel-card-container .card-1 .card-desc p{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.travel-card-container .card-2 .card-desc p{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Travel Article ends start */
+
 /* newsletter style start */
 
 .newsletter-container{
