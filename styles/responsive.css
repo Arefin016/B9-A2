@@ -212,8 +212,15 @@
         margin-bottom: 10px;
     }
     .travel-com{
+        width: 174px;
+        bottom: 150px;
         left: 74px;
-        padding-left: 0;
-        padding-right: 0;
+        padding: 25px;
+    }
+    .travel-com h3{
+        font-size: 18px;
+    }
+    .travel-com h1{
+        font-size: 20px;
     }
 }
